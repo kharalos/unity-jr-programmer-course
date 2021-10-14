@@ -111,6 +111,7 @@ public class OptimUnit : MonoBehaviour
     void Move()
     {
         transform.position = transform.position + currentVelocity * Time.deltaTime;
+
     }
 
     private void HandleTime()
